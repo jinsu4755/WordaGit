@@ -23,6 +23,13 @@ public class CreateJSON {
 		// Array 추가
 		personArray.add(personInfo);
 		
+		personInfo = new JSONObject();
+		personInfo.put("name", "jinsu2");
+		personInfo.put("age", "22");
+		personInfo.put("nickname", "Antilog2");
+		// Array 추가
+		personArray.add(personInfo);
+		
 		/*
 		// 정보 채우기
 		personInfo = new JSONObject();
