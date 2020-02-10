@@ -56,6 +56,13 @@ public class CreateJSON {
 		//eunhak 본인 주석 아래 양식 작성
 		
 		//jiyeong 본인 주석 아래 양식 작성
+		personInfo = new JSONObject();
+		personInfo.put("name", "jiyeong");
+		personInfo.put("age", "22");
+		personInfo.put("nickname", "JIYEONGSTAR");
+		// Array 추가
+		personArray.add(personInfo);
+		
 		
 		// 전체 객체에 person 배열 추가
 		jsonObject.put("wordataTeam", personArray);
