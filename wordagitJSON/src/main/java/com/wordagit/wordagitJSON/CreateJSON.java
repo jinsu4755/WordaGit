@@ -54,7 +54,13 @@ public class CreateJSON {
 		personArray.add(personInfo);
 		
 		//eunhak 본인 주석 아래 양식 작성
-		
+		personInfo = new JSONObject();
+		personInfo.put("name", "eunhak");
+		personInfo.put("age", "22");
+		personInfo.put("nickname", "IRONHAK");
+		// Array 추가
+		personArray.add(personInfo);
+				
 		//jiyeong 본인 주석 아래 양식 작성
 		personInfo = new JSONObject();
 		personInfo.put("name", "jiyeong");
